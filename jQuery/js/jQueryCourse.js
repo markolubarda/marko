@@ -1,4 +1,4 @@
-/**
+/*
  * Created by markolubarda on 01.09.17.
  */
 
