@@ -1,0 +1,77 @@
+html {
+    width: 100%;
+}
+body {
+    background-color: aqua;
+}
+input {
+    width: 275px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+label {
+    width: 160px;
+}
+#wrapper {
+    font-family: Helvetica sans-serif;
+    font-size: 18px;
+    width: 700px;
+    margin: 0 auto;
+}
+.formElement {
+    margin-bottom: 10px;
+}
+#submitButton {
+    width: 100px;
+    background-color: gold;
+    padding: 0;
+    margin-left: 165px;
+}
+#errorMessage {
+    color: red;
+    font-size: 14px;
+}
+#successMessage {
+    color: green;
+    font-size: 14px;
+    display: none;
+}
+.menuBar {
+    display: inline-flex;
+}
+.menuLink {
+    margin: 20px 20px;
+    list-style: none;
+}
+.impressumImg {
+    width: 50%;
+}
+
+/*jQueryCourse*/
+
+#circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: darkorange;
+    margin: 20px;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px;
+}
+.iframeContent {
+    width: 50%;
+    height: 350px;
+}
+#textToFadeIn {
+    display: none;
+}
+#hiddenText {
+    display: none;
+}

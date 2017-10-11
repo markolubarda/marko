@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>jQuery meets AJAX</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--<link rel="stylesheet" href="css/style.css" type="text/css" />-->
+        <link rel="stylesheet" href="js/jqueryUi/jquery-ui.css" type="text/css" />
+
+        <style>
+            body {
+                background-color: lightskyblue;
+            }
+            /*#draggable {*/
+                /*width: 150px;*/
+                /*height: 150px;*/
+                /*padding: 0.5em;*/
+            /*}*/
+            /*#droppableSquare {*/
+                /*width: 400px;*/
+                /*height: 400px;*/
+                /*background-color: greenyellow;*/
+            /*}*/
+            /*#draggableSquare {*/
+                /*width: 200px;*/
+                /*height: 200px;*/
+                /*background-color: darkred;*/
+            /*}*/
+            /*.goldBg {*/
+                /*background-color: gold;*/
+            /*}*/
+            #accordion {
+                width: 700px;
+                margin: 0 auto;
+            }
+            #sortable {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 60%;
+            }
+            #sortable li {
+                margin: 0 3px 3px 3px;
+                padding: 0.4em;
+                padding-left: 1.5em;
+                font-size: 1.4em;
+                height: 40px;
+            }
+            #sortable li span {
+                position: absolute;
+                margin-left: -1.3em;
+            }
+
+        </style>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jqueryUi/jquery-ui.js"></script>
+        <!--<script type="text/javascript" src="js/jQueryCourse.js"></script>-->
+        <!--<script type="text/javascript" src="js/exercise1.js"></script>-->
+        <!--<script type="text/javascript" src="js/changeObjectWithAjax.js"></script>-->
+
+    </head>
+
+    <body>
+
+        <!--<div id="box" style="width: 400px; height: 400px; border: 1px solid black;">-->
+            <!--<div id="draggable" class="ui-widget-content">-->
+                <!--<p>Drag me around</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div id="droppableSquare">-->
+            <!--<p>This is the Droppable Square</p>-->
+        <!--</div>-->
+
+        <!--<div id="draggableSquare">-->
+            <!--<p>This is the Draggable Square</p>-->
+        <!--</div>-->
+
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+                <p>
+                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo.
+                </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+                <p>
+                    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                <p>
+                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                </p>
+                <ul id="sortable">
+                    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>List item one</li>
+                    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>List item two</li>
+                    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>List item three</li>
+                    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>List item four</li>
+                    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>List item five</li>
+                </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+                <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    <img src="img/ML-Klassa.jpg" alt="ML">
+                </p>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+
+            $("#accordion").accordion();
+
+            $(function() {
+
+                $("#sortable").sortable();
+
+            });
+
+            $("#sortable").disableSelection();
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,3 @@
+Hi this is some Text to learn JQuery and Ajax! Go for it!
+This was edited in Vim !
+Created by Marko Lubarda

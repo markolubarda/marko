@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>jQuery meets AJAX</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--<link rel="stylesheet" href="css/style.css" type="text/css" />-->
+        <link rel="stylesheet" href="js/jqueryUi/jquery-ui.css" type="text/css" />
+
+        <style>
+            body {
+                background-color: deepskyblue;
+                font-family: sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+            #topBar {
+                width: 100%;
+                background-color: #eee;
+                padding: 5px;
+                height: 42px;
+            }
+            #logo {
+                float: left;
+                font-weight: bold;
+                font-size: 120%;
+                padding: 3px 5px;
+            }
+            #buttonContainer {
+                width: 260px;
+                margin: 0 auto;
+            }
+            .toggleButton {
+                float: left;
+                border: 1px solid grey;
+                padding: 5px 10px;
+                border-right: none;
+            }
+            #html {
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+            }
+            #output {
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-right: 1px solid grey;
+            }
+            .active {
+                background-color: lightskyblue;
+            }
+            .highlighted {
+                background-color: grey;
+            }
+            #bodyContainer {
+
+            }
+            textarea {
+                resize: none;
+                border-top: none;
+                border-color: grey;
+            }
+            .panel {
+                float: left;
+                width: 50%;
+                border-left: none;
+            }
+            iframe {
+                border: none;
+
+            }
+            .hidden {
+                display: none;
+            }
+
+        </style>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jqueryUi/jquery-ui.js"></script>
+        <!--<script type="text/javascript" src="js/jQueryCourse.js"></script>-->
+        <!--<script type="text/javascript" src="js/exercise1.js"></script>-->
+        <!--<script type="text/javascript" src="js/changeObjectWithAjax.js"></script>-->
+
+    </head>
+
+    <body>
+
+        <div id="topBar">
+            <div id="logo">
+
+                CodePlayer
+
+            </div>
+
+            <div id="buttonContainer">
+
+                <div class="toggleButton active" id="html">HTML</div>
+                <div class="toggleButton" id="css">CSS</div>
+                <div class="toggleButton" id="javascript">JavaScript</div>
+                <div class="toggleButton active" id="output">Output</div>
+            </div>
+        </div>
+
+        <div id="bodyContainer">
+
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World</p></textarea>
+
+            <textarea id="cssPanel" class="panel hidden">p {color: orange;}</textarea>
+
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Marko"</textarea>
+
+            <iframe id="outputPanel" class="panel"></iframe>
+
+        </div>
+
+        <script type="text/javascript">
+
+            function updateOutput() {
+
+	            $("iframe").contents().find("html").html("<html><head><style type='text/css'>" + $("#cssPanel").val() + "</style></head><body>" + $("#htmlPanel").val() + "</body></html>");
+
+	            document.getElementById("outputPanel").contentWindow.eval($("#javascriptPanel").val());
+
+            }
+
+            $(".toggleButton").hover(function () {
+                
+            	$(this).addClass("highlighted");
+
+            }, function() {
+
+            	$(this).removeClass("highlighted");
+
+            });
+
+            $(".toggleButton").click(function() {
+
+            	$(this).toggleClass("active");
+
+            	$(this).removeClass("highlighted");
+
+            	var panelId = $(this).attr("id") + "Panel";
+
+            	$("#" + panelId).toggleClass("hidden");
+
+            	var activePanels = 4 - $(".hidden").length;
+
+	            $(".panel").width(($(window).width() / activePanels) - 10);
+
+
+            });
+
+            $(".panel").height($(window).height() - $("#topBar").height() - 15);
+
+            $(".panel").width(($(window).width() / 2) - 10);
+
+            updateOutput();
+
+            $("textarea").on("change keyup paste", function() {
+
+	            updateOutput();
+
+            });
+
+        </script>
+
+    </body>
+</html>
