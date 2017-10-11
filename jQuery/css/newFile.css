@@ -1,0 +1,15 @@
+html {
+    width: 100%;
+}
+body {
+    background-color: greenyellow;
+}
+.newFile {
+    width: 50%;
+    margin: 0 auto;
+}
+.exercise {
+    margin-top: 20px;
+    width: 100%;
+    background-color: lime;
+}

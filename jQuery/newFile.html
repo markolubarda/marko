@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+
+			<title>newFile</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+			<link rel="stylesheet" href="css/newFile.css" type="text/css" />
+
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		</head>
+
+		<body>
+			<div class="newFile">
+				<!-- 1. Set value in input text using jQuery -->
+				<p>Input your Name :</p>
+				<input type="text" name="pname">
+				<input id="button1" type="button" value="Click to set default name" />
+
+				<!-- 2. Change options of select using jQuery -->
+				<select>
+					<option id="c1" value="red">Red</option>
+					<option id="c2" value="green">Green</option>
+					<option id="c3" value="white">White</option>
+					<option id="c4" value="blue">Blue</option>
+				</select>
+			</div>
+
+			<!-- 3. Prepend list items -->
+			<div class="exercise">
+				<div>
+					<textarea id="textBox"></textarea>
+					<br>
+					<button id="submit">Post</button>
+					<br>
+				</div>
+
+				<div id="output">
+					<ul id="list">
+
+					</ul>
+				</div>
+			</div>
+
+
+			<script>
+				// 1. Set value in input text using jQuery
+				$(document).ready(function(){
+					$('#button1').click(function(){
+						$('input[name="pname"]').val('Marko');
+					});
+				});
+
+				// 2. Change options of select using jQuery
+				var option = $('<select></select>').attr("red", "orange").text("Orange");
+				$("#c3").empty().append(option);
+
+
+				// 3. Prepend list items
+				// let' create new <li> elements with text from textarea
+				$('#submit').click(function() {
+					$text = $('#textBox').val();
+					$('#list').prepend('<li>' + $text + '</li>');//prepend will add new items on top, append on bottom
+				});
+				//let's check if there is no text - make button inactive
+				$('#textBox').on('change', function() {
+					if ($('#textBox').val() === '') {
+						$('#submit').attr('disabled', true);
+					}
+					else  {
+						$('#submit').attr('disabled', false);
+					}
+				});
+				//let's initialize button with false
+				$('#submit').attr('disabled', true);
+			</script>
+
+		</body>
+	</html>
