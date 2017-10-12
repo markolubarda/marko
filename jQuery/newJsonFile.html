@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+
+			<title>newFile</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+			<link rel="stylesheet" href="css/newFile.css" type="text/css" />
+
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+		</head>
+
+		<body>
+			<div class="mainBox">
+				<div class="hiddenBox">
+					<p class="changeNames">Steve</p>
+					<p class="changeNames">Filip</p>
+					<p class="changeNames">Arnold</p>
+				</div>
+			</div>
+
+			<script>
+				/* shorthand method getJson files
+				$.getJSON('json/users.json', function(data) {
+					console.log(data);
+				});
+				 */
+
+				// ajax method to getJson files
+				$.ajax({
+					url: 'json/users.json',
+					dataType: 'json',
+					type: 'get',
+					cache: false,
+					success: function(data) {
+						$(data.users).each(function(index, value) {
+							$('.changeNames').html(value.lname);
+						})
+					}
+				});
+			</script>
+
+		</body>
+	</html>

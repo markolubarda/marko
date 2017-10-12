@@ -1,0 +1,42 @@
+{
+  "users" : [
+    {
+      "id" : 1,
+      "fname" : "Marko",
+      "lname" : "Lubarda"
+    },
+    {
+      "id" : 2,
+      "fname" : "Masan",
+      "lname" : "Lubarda"
+    },
+    {
+      "id" : 3,
+      "fname" : "Vito",
+      "lname" : "Kovacic"
+    }
+  ],
+  "products" : [
+    {
+      "id" : 1,
+      "car" : "yes",
+      "brand" : "Mercedes",
+      "type" : "ML-Class",
+      "engine" : "3.0l CDI 265Hp"
+    },
+    {
+      "id" : 2,
+      "car" : "yes",
+      "brand" : "Mercedes",
+      "type" : "CLS-Class",
+      "engine" : "5.5l G 388Hp"
+    },
+    {
+      "id" : 3,
+      "car" : "yes",
+      "brand" : "Mini",
+      "type" : "One",
+      "engine" : "1.6l G 110Hp"
+    }
+  ]
+}
