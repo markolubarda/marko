@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/css/newFile.css" afterPath="$PROJECT_DIR$/jQuery/css/newFile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/newFile.html" afterPath="$PROJECT_DIR$/jQuery/newFile.html" />
-    </list>
+    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +26,7 @@
       <file leaf-file-name="newFile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery/newFile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="512">
               <caret line="94" column="51" lean-forward="true" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
               <folding />
             </state>
@@ -604,7 +601,7 @@
       <option name="presentableId" value="Default" />
       <updated>1507709756775</updated>
       <workItem from="1507709768698" duration="7678000" />
-      <workItem from="1507796427024" duration="2137000" />
+      <workItem from="1507796427024" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -645,7 +642,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9815000" />
+    <option name="totallyTimeSpent" value="10470000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -933,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/newFile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="512">
           <caret line="94" column="51" lean-forward="true" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
           <folding />
         </state>
