@@ -49,6 +49,16 @@
 				</div>
 			</div>
 
+			<!-- 4. Show items on clicking button -->
+			<div class="mainBox">
+				<h3 class="page-header text-center"><button id="showBox">Projects</button></h3>
+
+				<div class="hiddenBox text-center hidden" id="secretBox">
+					<span class="pager">Project one</span>
+					<span class="pager">Project two</span>
+					<span class="pager">Project three</span>
+				</div>
+			</div>
 
 			<script>
 				// 1. Set value in input text using jQuery
@@ -80,6 +90,12 @@
 				});
 				//let's initialize button with false
 				$('#submit').attr('disabled', true);
+
+
+				// 4. Show items on clicking button
+				$('#showBox').on('click', function() {
+					$('#secretBox').toggleClass('hidden');
+				});
 			</script>
 
 		</body>
