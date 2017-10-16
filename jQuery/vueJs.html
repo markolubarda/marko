@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+
+			<title>newFile</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+			<link rel="stylesheet" href="css/vueJs.css" type="text/css" />
+
+			<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+		</head>
+
+		<body>
+
+		<div class="middleBox" id="root">
+
+			<input type="text" id="shortMessage" v-model="message">
+
+			<p>The value of the input is: {{ message }}</p>
+
+		</div>
+
+
+
+
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+
+			<script>
+
+				new Vue({
+
+					el: '#root',
+
+					data: {
+
+						message: 'Hello this is vue.js'
+					}
+				});
+
+			</script>
+
+		</body>
+	</html>

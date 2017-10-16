@@ -12,9 +12,6 @@
 
 			<link rel="stylesheet" href="css/newFile.css" type="text/css" />
 
-			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-
 		</head>
 
 		<body>
@@ -26,26 +23,34 @@
 				</div>
 			</div>
 
+
+
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+
 			<script>
-				/* shorthand method getJson files
-				$.getJSON('json/users.json', function(data) {
-					console.log(data);
-				});
-				 */
+				$('document').ready(function() {
 
-				// ajax method to getJson files
-				$.ajax({
-					url: 'json/users.json',
-					dataType: 'json',
-					type: 'get',
-					cache: false,
-					success: function(data) {
-						$(data.users).each(function(index, value) {
-							$('.changeNames').html(value.lname);
-						})
-					}
-				});
+					/* shorthand method getJson files
+					 $.getJSON('json/users.json', function(data) {
+					 console.log(data);
+					 });
+					 */
+
+					// ajax method to getJson files
+					$.ajax({
+						url: 'json/users.json',
+						dataType: 'json',
+						type: 'get',
+						cache: false,
+						success: function(data) {
+							$(data.products).each(function(index, value) {
+								$('.changeNames').html(value.engine);
+							})
+						}
+					});
+				})
 			</script>
-
 		</body>
 	</html>
