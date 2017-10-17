@@ -24,19 +24,20 @@
 
 			{{ foo }}
 
-			{{ name }}
-
-			<p v-text="name"></p>
-
 			<div class="media-bottom">
 
 				<ul>
 					<!--option with mustache-->
 					<li v-for="name in names">{{ name }}</li>
+					<br>
 					<!--option without mustache-->
 					<li v-for="name in names" v-text="name"></li>
 
 				</ul>
+
+				<input id="input" type="text">
+
+				<button id="addName" type="button">Add Name</button>
 
 			</div>
 
@@ -52,7 +53,7 @@
 
 			<script>
 
-				new Vue({
+				var app = new Vue({
 
 					el: '#root',
 
@@ -62,9 +63,20 @@
 
 						foo: 'bar',
 
-						name: 'Marko',
-
 						names: ['leo', 'peter', 'ivan', 'drago']
+					},
+
+					mounted() {
+
+						document.querySelector('#addName').addEventListener('click', () => {
+
+							var name = document.querySelector('#input');
+
+							app.names.push(name.value);
+
+							name.value = '';
+						});
+
 					}
 				});
 
