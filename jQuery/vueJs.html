@@ -22,22 +22,28 @@
 
 			<input type="text" id="shortMessage" v-model="message">
 
+			<p>{{ message }}</p>
+
 			{{ foo }}
 
 			<div class="media-bottom">
 
 				<ul>
-					<!--option with mustache-->
+					<!-- option with mustache -->
 					<li v-for="name in names">{{ name }}</li>
 					<br>
-					<!--option without mustache-->
+					<!-- option without mustache -->
 					<li v-for="name in names" v-text="name"></li>
 
 				</ul>
 
-				<input id="input" type="text">
+				<input id="input" type="text" v-model="newName">
 
-				<button id="addName" type="button">Add Name</button>
+				<!-- normal vue.js method -->
+				<button v-on:click="addName" type="button" style="background-color: yellow">Add Name</button>
+
+				<!-- shorthand vue.js method -->
+				<button @click="addName" type="button" style="background-color: gold">Add Name2</button>
 
 			</div>
 
@@ -63,21 +69,34 @@
 
 						foo: 'bar',
 
+						newName: '',
+
 						names: ['leo', 'peter', 'ivan', 'drago']
 					},
 
-					mounted() {
+					methods: {
 
-						document.querySelector('#addName').addEventListener('click', () => {
+						addName() {
 
-							var name = document.querySelector('#input');
+							this.names.push(this.newName);
 
-							app.names.push(name.value);
+							this.newName = '';
+						}
 
-							name.value = '';
-						});
+					},
 
-					}
+//					mounted() {
+//
+//						document.querySelector('#addName').addEventListener('click', () => {
+//
+//							var name = document.querySelector('#input');
+//
+//							app.names.push(name.value);
+//
+//							name.value = '';
+//						});
+//
+//					}
 				});
 
 			</script>
