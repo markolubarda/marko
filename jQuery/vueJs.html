@@ -22,7 +22,24 @@
 
 			<input type="text" id="shortMessage" v-model="message">
 
-			<p>The value of the input is: {{ message }}</p>
+			{{ foo }}
+
+			{{ name }}
+
+			<p v-text="name"></p>
+
+			<div class="media-bottom">
+
+				<ul>
+					<!--option with mustache-->
+					<li v-for="name in names">{{ name }}</li>
+					<!--option without mustache-->
+					<li v-for="name in names" v-text="name"></li>
+
+				</ul>
+
+			</div>
+
 
 		</div>
 
@@ -41,7 +58,13 @@
 
 					data: {
 
-						message: 'Hello this is vue.js'
+						message: "This is Vue.js",
+
+						foo: 'bar',
+
+						name: 'Marko',
+
+						names: ['leo', 'peter', 'ivan', 'drago']
 					}
 				});
 
