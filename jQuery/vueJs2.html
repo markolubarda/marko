@@ -24,7 +24,7 @@
 
 			<h1 :class="className">VueJs</h1>
 
-			<button :class="{'isLoading' : false}">Click Me</button>
+			<button :class="{'isLoading' : isLoading}" @click="toggleClass">Click Me</button>
 
 		</div>
 
@@ -45,8 +45,19 @@
 
 						title: 'Now the title is JS',
 
-						className: 'color-red'
+						className: 'color-red',
 
+						isLoading: false
+
+					},
+
+					methods: {
+
+						toggleClass() {
+
+							this.isLoading = true;
+
+						}
 					}
 				});
 

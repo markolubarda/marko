@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/css/vueJs.css" afterPath="$PROJECT_DIR$/jQuery/css/vueJs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/vueJs2.html" afterPath="$PROJECT_DIR$/jQuery/vueJs2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,8 +54,8 @@
       <file leaf-file-name="vueJs2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery/vueJs2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="609">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -325,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -768,7 +766,7 @@
       <workItem from="1508231062090" duration="5324000" />
       <workItem from="1508244669754" duration="4340000" />
       <workItem from="1508252179108" duration="242000" />
-      <workItem from="1508252455219" duration="4485000" />
+      <workItem from="1508252455219" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -840,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508315518148</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="learning VueJs2.html episode 5">
+      <created>1508318868502</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508318868502</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36521000" />
+    <option name="totallyTimeSpent" value="36954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1312,8 +1317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/vueJs2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="609">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
