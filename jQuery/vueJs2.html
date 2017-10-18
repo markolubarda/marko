@@ -16,12 +16,15 @@
 
 		</head>
 
-		<body>
+		<body style="background-color: darkorange">
 
 		<div class="middleBox" id="root">
 
+			<button :title="title">Hover Over Me</button>
 
+			<h1 :class="className">VueJs</h1>
 
+			<button :class="{'isLoading' : false}">Click Me</button>
 
 		</div>
 
@@ -39,6 +42,10 @@
 					el: '#root',
 
 					data: {
+
+						title: 'Now the title is JS',
+
+						className: 'color-red'
 
 					}
 				});
