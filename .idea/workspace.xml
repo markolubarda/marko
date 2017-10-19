@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="learning VueJs2.html episode 7">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" afterPath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" />
-    </list>
+    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="learning VueJs2.html episode 7" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -762,7 +759,7 @@
       <workItem from="1508244669754" duration="4340000" />
       <workItem from="1508252179108" duration="242000" />
       <workItem from="1508252455219" duration="6101000" />
-      <workItem from="1508400846226" duration="8412000" />
+      <workItem from="1508400846226" duration="8553000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -873,7 +870,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46549000" />
+    <option name="totallyTimeSpent" value="46690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
