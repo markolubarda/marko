@@ -9,7 +9,7 @@ Vue.component('task-list', {
 })
 
 
-new Vue({
+var pro = new Vue({
 
 	el: '#taskSection',
 
