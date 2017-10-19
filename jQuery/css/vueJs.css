@@ -17,3 +17,12 @@ body {
 .isLoading {
     background-color: green;
 }
+.lowerBox {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    border: 3px double white;
+    background-color: midnightblue;
+    margin-top: 30px;
+    color: white;
+}

@@ -4,7 +4,7 @@
 		<head>
 			<meta charset="UTF-8">
 
-			<title>vueJs episode 5-8</title>
+			<title>vueJs episode 5 & 6</title>
 
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -26,8 +26,34 @@
 
 			<button :class="{'isLoading' : isLoading}" @click="toggleClass">Click Me</button>
 
-			<!-- Episode 6-->
-			<h2 v-text=""></h2>
+		</div>
+
+		<!-- Episode 6-->
+		<div class="lowerBox" id="taskSection">
+
+			<h2 v-text="message"></h2>
+
+			<h2>
+				{{ reversedMessage }}
+			</h2>
+
+			<h3>All Tasks</h3>
+
+			<ul>
+				<li v-for="task in tasks" v-text="task.description"></li>
+			</ul>
+
+			<h3>Complete Tasks</h3>
+
+			<ul style="color: greenyellow">
+				<li v-for="task in tasks" v-if="task.completed" v-text="task.description"></li>
+			</ul>
+
+			<h3>Incomplete Tasks</h3>
+
+			<ul style="color: red">
+				<li v-for="task in incompleteTasks" v-text="task.description"></li>
+			</ul>
 
 
 		</div>
@@ -62,7 +88,52 @@
 							this.isLoading = true;
 
 						}
-					}
+					},
+
+				});
+
+				var pro = new Vue ({
+
+					el: '#taskSection',
+
+					data: {
+
+						message: "This is Vue.js!",
+
+						tasks: [
+
+							{ description: 'Go to the store', completed: true },
+
+							{ description: 'Finish screen cast', completed: false },
+
+							{ description: 'Make donation', completed: false },
+
+							{ description: 'Clean room', completed: true }
+
+						]
+					},
+
+					computed: {
+
+						incompleteTasks() {
+
+							return this.tasks.filter(task => ! task.completed);
+
+							// equivalent to above
+//							this.tasks.filter(function(task) {
+//
+//								return ! task.completed;
+//							});
+						},
+
+						reversedMessage() {
+
+							return this.message.split('').reverse().join('');
+
+						}
+
+					},
+
 				});
 
 			</script>
