@@ -22,7 +22,9 @@
 		<div class="middleBox" id="episoed10">
 
 			<!-- Episode 10 -->
-			<modal v-if="showModdal"></modal>
+			<modal v-if="showModal" @close="showModal = false"></modal>
+
+			<button @click="showModal = true">Show Modal</button>
 
 
 		</div>
