@@ -12,7 +12,7 @@ Vue.component('modal', {
 
 var pro = new Vue({
 
-	el: '#episoed10',
+	el: '#episode10',
 
 	data: {
 
