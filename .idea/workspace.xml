@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/css/vueJs.css" afterPath="$PROJECT_DIR$/jQuery/css/vueJs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" afterPath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/vueJs3.html" afterPath="$PROJECT_DIR$/jQuery/vueJs3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -780,7 +777,7 @@
       <workItem from="1508252455219" duration="6101000" />
       <workItem from="1508400846226" duration="8990000" />
       <workItem from="1508490862201" duration="2957000" />
-      <workItem from="1508744388267" duration="5592000" />
+      <workItem from="1508744388267" duration="5613000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -901,11 +898,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508748055987</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="learning VueJs2.html episode 9">
+      <created>1508750560780</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508750560780</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55676000" />
+    <option name="totallyTimeSpent" value="55697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,7 +1001,8 @@
     <MESSAGE value="learning VueJs2.html episode 6" />
     <MESSAGE value="learning VueJs2.html episode 7" />
     <MESSAGE value="learning VueJs2.html episode 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning VueJs2.html episode 8" />
+    <MESSAGE value="learning VueJs2.html episode 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning VueJs2.html episode 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
