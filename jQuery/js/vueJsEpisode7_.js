@@ -36,6 +36,8 @@ Vue.component('task-list', {
 // Episode 9
 Vue.component('message', {
 
+	props: ['title', 'body'],
+
 	template: '<article class="message"><div class="message-header">{{ title }}<button class="delete" aria-label="delete"></button></div><div class="message-body">{{ body }}</div></article>'
 
 });

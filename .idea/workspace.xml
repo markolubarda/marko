@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" afterPath="$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="vueJsEpisode7_.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="474">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -777,7 +778,7 @@
       <workItem from="1508252455219" duration="6101000" />
       <workItem from="1508400846226" duration="8990000" />
       <workItem from="1508490862201" duration="2957000" />
-      <workItem from="1508744388267" duration="5613000" />
+      <workItem from="1508744388267" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -909,7 +910,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55697000" />
+    <option name="totallyTimeSpent" value="55995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1370,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode7_.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="474">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
