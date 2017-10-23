@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="learning VueJs2.html episode 9">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/js/vueJsEpisode10_.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/vueJs4.html" afterPath="$PROJECT_DIR$/jQuery/vueJs4.html" />
-    </list>
+    <list default="true" id="377385f4-d2d3-4b2c-892a-bbb3c2b6231b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vueJs4.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vueJs4.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery/vueJs4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="377">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vueJsEpisode10_.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vueJsEpisode10_.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode10_.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -800,7 +796,7 @@
       <workItem from="1508252455219" duration="6101000" />
       <workItem from="1508400846226" duration="8990000" />
       <workItem from="1508490862201" duration="2957000" />
-      <workItem from="1508744388267" duration="8319000" />
+      <workItem from="1508744388267" duration="8665000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -963,11 +959,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508756220572</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="learning VueJs episode 10">
+      <created>1508756682928</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508756682928</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58403000" />
+    <option name="totallyTimeSpent" value="58749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,7 +1063,8 @@
     <MESSAGE value="learning VueJs2.html episode 7" />
     <MESSAGE value="learning VueJs2.html episode 8" />
     <MESSAGE value="learning VueJs2.html episode 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning VueJs2.html episode 9" />
+    <MESSAGE value="learning VueJs episode 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning VueJs episode 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1420,18 +1424,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/vueJs4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode10_.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/vueJs4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
