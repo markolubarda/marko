@@ -2,6 +2,14 @@
  * Created by markolubarda on 19.10.17.
  */
 
+ // Episode 7
+Vue.component('task', {
+
+	template: '<li><slot></slot></li>'
+
+});
+
+ // Episode 8
 Vue.component('task-list', {
 
 	template: '<div><task v-for="task in tasks">{{ task.task }}</task></div>',
@@ -25,9 +33,10 @@ Vue.component('task-list', {
 
 });
 
-Vue.component('task', {
+// Episode 9
+Vue.component('message', {
 
-	template: '<li><slot></slot></li>'
+	template: '<article class="message"><div class="message-header">{{ title }}<button class="delete" aria-label="delete"></button></div><div class="message-body">{{ body }}</div></article>'
 
 });
 

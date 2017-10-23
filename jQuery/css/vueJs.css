@@ -3,6 +3,7 @@ html {
 }
 body {
     background-color: orange;
+    height: 100vh;
 }
 .middleBox {
     width: 400px;
@@ -25,4 +26,7 @@ body {
     background-color: midnightblue;
     margin-top: 30px;
     color: white;
+}
+.message {
+    margin-top: 40px;
 }
