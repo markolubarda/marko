@@ -2,14 +2,14 @@
  * Created by markolubarda on 19.10.17.
  */
 
- // Episode 7
+	// Episode 7
 Vue.component('task', {
 
 	template: '<li><slot></slot></li>'
 
 });
 
- // Episode 8
+	// Episode 8
 Vue.component('task-list', {
 
 	template: '<div><task v-for="task in tasks">{{ task.task }}</task></div>',
@@ -33,12 +33,45 @@ Vue.component('task-list', {
 
 });
 
-// Episode 9
+	// Episode 9 main Method
+// Vue.component('message', {
+//
+// 	props: ['title', 'body'],
+//
+// 	data() {
+//
+// 		return {
+//
+// 			isVisible: true
+// 		};
+// 	},
+//
+// 	template: '<article class="message" v-show="isVisible"><div class="message-header">{{ title }}<button type="button" class="close" @click="hideModal">x</button></div><div class="message-body">{{ body }}</div></article>',
+//
+// 	methods: {
+//
+// 		hideModal() {
+//
+// 			this.isVisible = false;
+// 		}
+// 	}
+//
+// });
+
+	// Episode 9 short Method
 Vue.component('message', {
 
 	props: ['title', 'body'],
 
-	template: '<article class="message"><div class="message-header">{{ title }}<button class="delete" aria-label="delete"></button></div><div class="message-body">{{ body }}</div></article>'
+	data() {
+
+		return {
+
+			isVisible: true
+		};
+	},
+
+	template: '<article class="message" v-show="isVisible"><div class="message-header">{{ title }}<button type="button" class="close" @click="isVisible = false">x</button></div><div class="message-body">{{ body }}</div></article>'
 
 });
 

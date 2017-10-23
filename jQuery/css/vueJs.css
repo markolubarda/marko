@@ -30,3 +30,6 @@ body {
 .message {
     margin-top: 40px;
 }
+.close {
+    color: white;
+}
