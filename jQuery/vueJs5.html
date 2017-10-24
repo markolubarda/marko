@@ -4,7 +4,7 @@
 		<head>
 			<meta charset="UTF-8">
 
-			<title>vueJs episode 10-11</title>
+			<title>vueJs episode 12</title>
 
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -21,7 +21,11 @@
 
 		<div class="container" id="episode12">
 
+			<coupon v-on:applied="onCouponApplied"></coupon>
+				<!--same code like v-on:applied -->
+			<!--<coupon @applied="onCouponApplied"></coupon>-->
 
+			<h1 style="color: white" v-if="couponApplied">You used a coupon!</h1>
 
 		</div>
 
