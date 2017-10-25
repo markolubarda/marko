@@ -7,7 +7,7 @@ Vue.component('progress-view', {
 
 	data() {
 
-		return { completionRate: 0 };
+		return { completionRate: 50 };
 	}
 
 });
