@@ -1,8 +1,24 @@
 /**
- * Created by markolubarda on 24.10.17.
+ * Created by markolubarda on 25.10.17.
  */
-// Episode 13 first example
-window.Event = new Vue();
+// Episode 13 second example
+window.Event = new class {
+
+	constructor() {
+
+		this.vue = new Vue();
+	}
+
+	fire(event, data = null) {
+
+		this.vue.$emit(event, data);
+	}
+
+	listen(event, callback) {
+
+		this.vue.$on(event, callback);
+	}
+}
 
 
 Vue.component('coupon', {
@@ -13,7 +29,7 @@ Vue.component('coupon', {
 
 		onCouponApplied() {
 
-			Event.$emit('applied');
+			Event.fire('applied');
 		}
 	}
 
@@ -32,7 +48,7 @@ var pro = new Vue ({
 
 	created() {
 
-		Event.$on('applied', () => alert('Handling it!'));
+		Event.listen('applied', () => alert('Handling it!'));
 	}
 
 });
