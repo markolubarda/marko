@@ -1,7 +1,7 @@
 /**
  * Created by markolubarda on 24.10.17.
  */
-// Episode 13
+// Episode 13 first example
 window.Event = new Vue();
 
 
