@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vueJs8.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vueJs8.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery/vueJs8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vueJsEpisode15_.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vueJsEpisode15_.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode15_.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -180,8 +180,8 @@
         <option value="$PROJECT_DIR$/jQuery/.gitignore" />
         <option value="$PROJECT_DIR$/jQuery/js/vueJsEpisode14_.js" />
         <option value="$PROJECT_DIR$/jQuery/vueJs7.html" />
-        <option value="$PROJECT_DIR$/jQuery/vueJs8.html" />
         <option value="$PROJECT_DIR$/jQuery/js/vueJsEpisode15_.js" />
+        <option value="$PROJECT_DIR$/jQuery/vueJs8.html" />
       </list>
     </option>
   </component>
@@ -787,7 +787,7 @@
       <workItem from="1508744388267" duration="3330000" />
       <workItem from="1508836342342" duration="8406000" />
       <workItem from="1508926251898" duration="4034000" />
-      <workItem from="1508936508748" duration="4515000" />
+      <workItem from="1508936508748" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Main commit">
       <created>1507715634603</created>
@@ -1013,11 +1013,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508942082345</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="learning VueJs episode 15">
+      <created>1508942460631</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1508942460631</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70452000" />
+    <option name="totallyTimeSpent" value="70546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1491,21 +1498,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/vueJs8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/js/vueJsEpisode15_.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/vueJs8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
